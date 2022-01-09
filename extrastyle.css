@@ -1,0 +1,17 @@
+#rsbtn1:hover{
+    width: 5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px white solid;
+    font-size: larger;
+}
+
+#lsbtn1:hover{
+    width: 5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px white solid;
+    font-size: larger;
+}

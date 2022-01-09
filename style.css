@@ -58,16 +58,40 @@
     width: 60%;
     height: 5vh;
     position: relative;
-    left: 85px;
+    left: 40px;
     top: 10px;
     border: 2px white solid;
     color: green;
+    font-size: 20px;
+    font-weight: 800;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
+.right-side input[value="Sumbit"]{
+    width: 4.5rem;
+    height: 2.4rem;
+    position: absolute;
+    left: 330px;
+    top: 7px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: .45rem;
+}
+
+.right-side input[value="Play"]{
+    width: 6rem;
+    height: 5vh;
+    background-image: linear-gradient(to right, white red);
+    position: absolute;
+    top: 31.5rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
 ::placeholder{
-    color: green;
+    color: Red;
     font-weight: 800;
 }
 
@@ -85,10 +109,37 @@
     width: 60%;
     height: 5vh;
     position: relative;
-    left: 85px;
+    left: 40px;
     top: 10px;
     border: 2px white solid;
-    color: green;
+    font-size: 20px;
+    font-weight: 800;
+    color: Blue;
     font-family: 'Times New Roman', Times, serif;
     
 }
+
+.left-side input[value="Sumbit"]{
+    width: 4.5rem;
+    height: 2.4rem;
+    position: absolute;
+    left: 810px;
+    top: 7px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: .45rem;
+}
+
+
+.left-side input[value="Play"]{
+    width: 6rem;
+    height: 5vh;
+    background-image: linear-gradient(to right, white red);
+    position: absolute;
+    top: 31.5rem;
+    left: 38rem;
+    cursor: pointer;
+
+}
+
