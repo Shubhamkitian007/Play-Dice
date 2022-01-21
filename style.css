@@ -25,9 +25,9 @@
     font-size:xx-large;
     text-align: center;
     display: flex;
-    position: relative;
+    position: absolute;
     left: 38rem;
-    top: -2rem;
+    top: 10px;
 }
 
 .box{
@@ -93,22 +93,6 @@
     position: absolute;
     top: 50px;
     left: -0px;
-    text-align: center;
-}
-
-
-.right-side input[value="Roll The Dice"]{
-    width: 12rem;
-    height: 5vh;
-    position: absolute;
-    border: 2px black solid;
-    top: 28rem;
-    left: 7rem;
-    cursor: pointer;
-    color: red;
-    font-size: larger;
-    font-weight: 800;
-    box-shadow: 3px 5px 5px grey;
 }
 
 ::placeholder{
@@ -161,24 +145,9 @@
     font-size: 45px;
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
+    position: relative;
     top: 50px;
     left: -0px;
-    text-align: center;
-}
-
-.left-side input[value="Roll The Dice"]{
-    width: 12rem;
-    height: 5vh;
-    position: relative;
-    border: 2px black solid;
-    box-shadow: 3px 5px 5px grey;
-    top: 28rem;
-    left: 38rem;
-    cursor: pointer;
-    color: red;
-    font-size: larger;
-    font-weight: 800;
 }
 
 .diceroll{
