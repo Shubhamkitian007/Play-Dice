@@ -20,19 +20,18 @@
                 <input type="text" id="firstplayer" placeholder="First Player Name">
                 <input type="button" value="Sumbit" id="rsbtn1" onclick="firstplayer()">
                 <h1 id="firstplayerheading"></h1>
-                <div class="displayp1"></div>
+                <img id="firstplayerimage" >
             </div>
 
             <!-- Left Div Start -->
             <div class="left-side">
                 <input type="text" id="secondplayer" placeholder="Second Player Name">
                 <input type="button" value="Sumbit" id="lsbtn2" onclick="secondplayer()">
-
                 <h1 id="secondplayerheading"></h1>
-
+                <img id="secondplayerimage" >
             </div>
         </div>
-        <div class="diceroll" onclick="diceroll()">Roll The Dice</div>
+        <div class="diceroll" id="droll" onclick="diceroll()">Roll The Dice</div>
         <div class="newgame" onclick="newgame()">Reset Game</div>
     </div>
 
@@ -43,5 +42,6 @@
 
 
     <script src="./script.js"></script>
+    <script src="./jquery-3.6.0.js"></script>
 </body>
 </html>
