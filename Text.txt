@@ -1,0 +1,35 @@
+// else if(count == 3){
+    //     if(firstRandomNum > secondRandomNum){
+    //         var p1 = document.getElementById('firstplayerheading').innerHTML;
+    //         console.log(`Congu ${p1} Are Winner`);
+    //         count = 0;
+    //     }
+    //     else if(firstRandomNum < secondRandomNum){
+    //         var p2 = document.getElementById('secondplayerheading').innerHTML;
+    //         console.log(`Congu ${p2} is Winner`);
+    //         count = 0;
+    //     }
+    //     else{
+    //         console.log("MAtch Draw");
+    //         count = 0;
+    //     }
+    // }
+    // var p1 = document.getElementById('firstplayerheading').innerHTML;
+    // // console.log(p1);
+    // // var p2 = document.getElementById('secondplayerheading').innerHTML;
+    // // console.log(p2);
+    // // console.log(firstRandomNum);
+    // // console.log(secondRandomNum);
+
+    // // if(firstRandomNum > secondRandomNum){
+    // //     var p1 = document.getElementById('firstplayerheading').innerHTML;
+    // //     console.log(`Congu ${p1} Are Winner`);
+    // // } else if(firstRandomNum < secondRandomNum){
+    // //     var p2 = document.getElementById('secondplayerheading').innerHTML;
+    // //     console.log(`Congu ${p2} is Winner`);
+    // // }
+    // // else{
+    // //     console.log("MAtch Draw");
+    // // }
+    // var sec = document.getElementById('secondplayerimage').innerHTML;
+    // console.log(sec);
