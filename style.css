@@ -200,3 +200,11 @@
     padding-top: 5px;
     cursor: pointer;
 }
+
+.rule{
+    position: relative;
+    top: 36.5rem;
+    left: 0rem;
+    font-size: 1.3rem;
+    color: white;
+}
