@@ -98,9 +98,9 @@
 
 #firstplayerimage{
     width: 10rem;
-    position: relative;
-    top: 5rem;
-    left: 9rem;
+    position: sticky;
+    top: 19rem;
+    left: 25rem;
 }
 
 ::placeholder{
@@ -158,11 +158,23 @@
     left: 15px;
 }
 
+.dicevalueone{
+    /* display: none; */
+    color: white;
+}
+
+.dicevaluetwo{
+    /* display: none; */
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    z-index: 3;
+}
 #secondplayerimage{
     width: 10rem;
-    position: relative;
-    top: 5rem;
-    left: 9rem;
+    position: sticky;
+    top: 19rem;
+    left: 55rem;
 }
 
 .diceroll{
@@ -183,13 +195,30 @@
     cursor: pointer;
 }
 
-.newgame{
+.result{
     width: 11rem;
     height: 6vh;
     border: 2px white solid;
     position: absolute;
-    top: 4rem;
+    top: 36rem;
     left: 40rem;
+    font-weight: 800;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 3px 5px 15px black;
+    border-radius: 0.4rem;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.newgame{
+    width: 20rem;
+    height: 6vh;
+    border: 2px white solid;
+    position: absolute;
+    top: 4rem;
+    left: 35rem;
     font-weight: 800;
     box-shadow: 3px 5px 15px black;
     border-radius: 0.4rem;
@@ -203,8 +232,32 @@
 
 .rule{
     position: relative;
-    top: 36.5rem;
+    top: 34rem;
     left: 0rem;
     font-size: 1.3rem;
     color: white;
+}
+
+.winner{
+    width: 50%;
+    height: 3rem;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 17rem;
+    left: 25rem;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.new{
+    width: 100%;
+    height: 3rem;
+    color: white;
+    font-size: xx-large;
+    font-weight: 800;
+    position: absolute;
+    top: 30rem;
+    text-align: center;
 }
