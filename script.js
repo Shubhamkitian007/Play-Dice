@@ -56,22 +56,18 @@ function result(){
         document.getElementById('box').style.display = "none";
         document.getElementById('result').style.display = "none";
         document.getElementById('new').style.display = "block";
-        document.getElementById('win').innerHTML = `Congratulations for Win <br> ${fname} `;
-        console.log(fname);
+        document.getElementById('win').innerHTML = `Congratulations <br> ${fname} `;
     }
     else if(seconddicevalue > firstdicevalue){
         document.getElementById('box').style.display = "none";
         document.getElementById('result').style.display = "none";
         document.getElementById('new').style.display = "block";
-        document.getElementById('win').innerHTML = `Congratulations For Win <br> ${sname} `;
-        console.log(sname);
+        document.getElementById('win').innerHTML = `Congratulations <br> ${sname} `;
     }
     else{
         document.getElementById('box').style.display = "none";
         document.getElementById('result').style.display = "none";
         document.getElementById('new').style.display = "block";
-        document.getElementById('win').innerHTML = `${fname} ${Sname} It's Drew`;
-        
+        document.getElementById('win').innerHTML = `It's Drew`;        
     }
-    // diceroll();
 }
